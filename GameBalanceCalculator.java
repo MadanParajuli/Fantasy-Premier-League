@@ -11,10 +11,10 @@ public class GameBalanceCalculator {
         Player Madan = new Player("Madan Parajuli", -5, -5);
         Player Sujal = new Player("Sujal Dhungana", -5, -5);
 
-        // Adding these players to an array for easy management
+       
         Player[] players = {Aashish, Arjun, Ashu, Bidur, Dinesh, Madan, Sujal};
 
-        // Simulate input to set the winner and calculate the balances
+        
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the name of the winning player:");
         String winnerName = scanner.nextLine();
