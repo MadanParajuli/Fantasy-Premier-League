@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class GameBalanceCalculator {
 
     public static void main(String[] args) {
-        // Creating Player objects
         Player Aashish = new Player("Aashish Neupane", 25, -5);
         Player Arjun = new Player("Arjun Parajuli", -5, -5);
         Player Ashu = new Player("Ashu Adhikari", -5, -5);
